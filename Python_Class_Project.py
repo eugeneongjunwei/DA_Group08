@@ -24,3 +24,12 @@ url2 = 'http://httpbin.org/headers'
 rh = requests.get(url2, headers=headers)
 print(rh.text)
 
+import unittest
+
+class Python_Class_Project(unittest.TestCase):
+
+    def test_EngineType(self):
+        print("Testing")
+
+if __name__ == '__main__':
+    unittest.main()
