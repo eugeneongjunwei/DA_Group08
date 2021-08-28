@@ -48,4 +48,4 @@ class NewSpider(scrapy.Spider):
                 response.urljoin(next_page),
                 callback=self.parse
             )
-# first commit
+
